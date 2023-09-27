@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://routeweather.netlify.app/images/logo@2x.png" type="image/x-icon">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <main class="">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center gap-3" href="index.html">
+                    <img src="https://routeweather.netlify.app/images/logo@2x.png" alt="logo-img" class="brand-img" />
+                    <div class="brand-name pt-3">
+                        <h1 class="site-title">Weather</h1>
+                        <small class="site-description">tagline goes here</small>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="nav-toggle-icon fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Live Cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="breadcrumb-content">
+            <div class="container">
+                <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active text-white" aria-current="page">Contact</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <section class="py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="contact-location">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27347.642683864633!2d31.36224007595736!3d31.04142128394389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79db7a9053547%3A0xf8dab3bbed766c97!2sMansoura%2C%20Mansoura%20Qism%202%2C%20El%20Mansoura%2C%20Dakahlia%20Governorate!5e0!3m2!1sen!2seg!4v1695831205282!5m2!1sen!2seg"
+                                width="75%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="d-flex flex-column gap-2">
+                                <div class="d-flex align-items-baseline gap-2">
+                                    <span class="fa-solid fa-location-dot"></span>
+                                    <div class="pt-3">
+                                        <p class="">Company Name INC.</p>
+                                        <p class="">2803 Avenue Street, Los Angeles</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-baseline gap-3">
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <span class="fa-solid fa-phone"></span>
+                                        <p class=""><a href="tel:+1 800 314 235">+1 800 314 235</a></p>
+                                    </div>
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <span class="fa-solid fa-envelope"></span>
+                                        <p class=""><a href="mailto:contact@companyname.com">contact@companyname.com</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="contact-form">
+                            <h2 class="text-capitalize text-white">contact us</h2>
+                            <p class="w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
+                                consectetur inventore ducimus, facilis, numquam id soluta omnis eius recusandae nesciunt
+                                vero repellat harum cum. Nisi facilis odit hic, ipsum sed!</p>
+                            <form class="row g-3 py-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="inputName" placeholder="yourName">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" id="inputEmail"
+                                        placeholder="yourEmail">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="inputNameCompany"
+                                        placeholder="companyName">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="inputWebsite" placeholder="website">
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea class="form-control" id="message" placeholder="message"
+                                        spellcheck="false"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="">
+            <div class="container">
+                <div class="row align-items-baseline justify-content-lg-between mb-3">
+                    <div class="col-lg-8">
+                        <form action="#" class="location position-relative mt-5 mb-3">
+                            <input type="input" class="location-field form-control"
+                                placeholder="Enter your email to subscribe">
+                            <button type="submit" id="subscribeBtn"
+                                class="position-absolute btn-style">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-3">
+                        <ul class="d-flex gap-3">
+                            <li><a href="#"><span class="fa-brands fa-facebook-f"></span></a></li>
+                            <li><a href="#"><span class="fa-brands fa-twitter"></span></a></li>
+                            <li><a href="#"><span class="fa-brands fa-google-plus-g"></span></a></li>
+                            <li><a href="#"><span class="fa-brands fa-pinterest"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="text-white text-center">
+                    Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </footer>
+    </main>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
